@@ -6,13 +6,22 @@
     android:layout_height="match_parent"
     tools:context="mobiledata.group.MainActivity">
 
-    <TextView
+    <Button
+        android:id="@+id/ruokalistaNappi"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:onClick="ruokalistaActivity"
+        android:text="Ruokalista"
+        tools:layout_editor_absoluteX="138dp"
+        tools:layout_editor_absoluteY="129dp" />
+
+    <Button
+        android:id="@+id/saaNappi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="saaActivity"
+        android:text="Sää"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="231dp" />
 
 </android.support.constraint.ConstraintLayout>
